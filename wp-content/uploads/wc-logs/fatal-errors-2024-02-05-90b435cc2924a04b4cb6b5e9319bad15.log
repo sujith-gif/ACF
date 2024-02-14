@@ -1,0 +1,8 @@
+2024-02-05T06:46:11+00:00 CRITICAL Cannot redeclare register_custom_menus() (previously declared in /opt/lampp/htdocs/ACF/wp-content/themes/customtheme/functions.php:22) in /opt/lampp/htdocs/ACF/wp-content/themes/customtheme/functions.php on line 160
+
+2024-02-05T11:37:13+00:00 CRITICAL syntax error, unexpected token ")" in /opt/lampp/htdocs/ACF/wp-content/themes/customtheme/page.php on line 7
+
+2024-02-05T12:17:16+00:00 CRITICAL syntax error, unexpected token "endforeach", expecting end of file in /opt/lampp/htdocs/ACF/wp-content/themes/customtheme/woocommerce/myaccount/my-address.php on line 92
+
+2024-02-05T12:18:00+00:00 CRITICAL syntax error, unexpected token "endforeach", expecting end of file in /opt/lampp/htdocs/ACF/wp-content/themes/customtheme/woocommerce/myaccount/my-address.php on line 93
+

@@ -1,0 +1,44 @@
+2024-02-01T05:42:14+00:00 CRITICAL Unclosed '{' in /opt/lampp/htdocs/ACF/wp-content/themes/customtheme/functions.php on line 66
+
+2024-02-01T05:42:22+00:00 CRITICAL Unclosed '{' in /opt/lampp/htdocs/ACF/wp-content/themes/customtheme/functions.php on line 66
+
+2024-02-01T05:42:44+00:00 CRITICAL Unclosed '{' in /opt/lampp/htdocs/ACF/wp-content/themes/customtheme/functions.php on line 66
+
+2024-02-01T05:43:15+00:00 CRITICAL Unclosed '{' in /opt/lampp/htdocs/ACF/wp-content/themes/customtheme/functions.php on line 66
+
+2024-02-01T05:43:55+00:00 CRITICAL Unclosed '{' in /opt/lampp/htdocs/ACF/wp-content/themes/customtheme/functions.php on line 66
+
+2024-02-01T05:44:01+00:00 CRITICAL Unclosed '{' in /opt/lampp/htdocs/ACF/wp-content/themes/customtheme/functions.php on line 66
+
+2024-02-01T05:44:10+00:00 CRITICAL Unclosed '{' in /opt/lampp/htdocs/ACF/wp-content/themes/customtheme/functions.php on line 66
+
+2024-02-01T05:44:14+00:00 CRITICAL Unclosed '{' in /opt/lampp/htdocs/ACF/wp-content/themes/customtheme/functions.php on line 66
+
+2024-02-01T05:44:48+00:00 CRITICAL Unclosed '{' in /opt/lampp/htdocs/ACF/wp-content/themes/customtheme/functions.php on line 66
+
+2024-02-01T05:44:51+00:00 CRITICAL Unclosed '{' in /opt/lampp/htdocs/ACF/wp-content/themes/customtheme/functions.php on line 66
+
+2024-02-01T06:06:38+00:00 CRITICAL Uncaught Error: Call to undefined function get_wp_footer() in /opt/lampp/htdocs/ACF/wp-content/themes/customtheme/single.php:15
+Stack trace:
+#0 /opt/lampp/htdocs/ACF/wp-includes/template-loader.php(106): include()
+#1 /opt/lampp/htdocs/ACF/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/ACF/index.php(17): require('/opt/lampp/htdo...')
+#3 {main}
+  thrown in /opt/lampp/htdocs/ACF/wp-content/themes/customtheme/single.php on line 15
+
+2024-02-01T12:26:11+00:00 CRITICAL syntax error, unexpected token "endif", expecting end of file in /opt/lampp/htdocs/ACF/wp-content/themes/customtheme/woocommerce/myaccount/my-address.php on line 79
+
+2024-02-01T12:40:41+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file in /opt/lampp/htdocs/ACF/wp-content/themes/customtheme/functions.php on line 19
+
+2024-02-01T12:49:33+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on string in /opt/lampp/htdocs/ACF/wp-content/plugins/woocommerce/templates/single-product/related.php:39
+Stack trace:
+#0 /opt/lampp/htdocs/ACF/wp-content/plugins/woocommerce/includes/wc-core-functions.php(345): include()
+#1 /opt/lampp/htdocs/ACF/wp-content/themes/customtheme/single.php(28): wc_get_template('single-product/...', Array)
+#2 /opt/lampp/htdocs/ACF/wp-includes/template-loader.php(106): include('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/ACF/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#4 /opt/lampp/htdocs/ACF/index.php(17): require('/opt/lampp/htdo...')
+#5 {main}
+  thrown in /opt/lampp/htdocs/ACF/wp-content/plugins/woocommerce/templates/single-product/related.php on line 39
+
+2024-02-01T12:52:17+00:00 CRITICAL syntax error, unexpected end of file in /opt/lampp/htdocs/ACF/wp-content/themes/customtheme/single.php on line 31
+

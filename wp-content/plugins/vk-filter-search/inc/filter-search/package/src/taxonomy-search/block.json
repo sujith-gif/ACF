@@ -1,0 +1,20 @@
+{
+	"apiVersion": "2",
+	"name": "vk-filter-search/taxonomy-search",
+	"title": "VK Taxonomy Search",
+	"category": "vk-blocks-cat",
+	"parent": [ "vk-filter-search/filter-search" ],
+	"attributes": {
+		"isSelectedTaxonomy": {
+			"type": "string",
+			"default": "category"
+		},
+		"className": {
+			"type": "string",
+			"default": ""
+		}
+	},
+	"supports": {
+		"className": true
+	}
+}

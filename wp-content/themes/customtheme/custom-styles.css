@@ -1,0 +1,336 @@
+#navbarNav ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+
+}
+
+.footer {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    justify-content: center;
+}
+
+
+
+
+.wpcf7-form-control-wrap {
+    width: 100%;
+}
+
+/* .price {
+    float: right !important;
+    position: relative;
+    top: -28px;
+} */
+
+.custom-column1 img {
+    position: relative;
+    left: 0px;
+}
+
+.menu-item-141 {
+    background-color: #0FAFE9;
+    padding: 12px 30px;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+
+.menu-item-141 a {
+    color: white;
+}
+
+.container-fluid {
+    margin-top: 60px;
+
+}
+
+.dgwt-wcas-ico-magnifier-handler {
+    margin-bottom: 1.8px !important;
+}
+
+#block-7 .col-md-3 {
+    max-width: 100% !important;
+}
+
+#block-8 .col-md-3 {
+    max-width: 100% !important;
+}
+
+#block-9 .col-md-3 {
+    max-width: 100% !important;
+}
+
+#block-10 .col-md-3 {
+    max-width: 100% !important;
+}
+
+.footer {
+    gap: 125px;
+
+}
+
+a {
+    color: black;
+}
+
+.custom-column1 ul li a {
+
+    display: flex;
+    gap: 17px;
+    align-items: center;
+
+}
+
+
+.woocommerce-MyAccount-navigation-link--downloads {
+    display: none;
+}
+
+/* .woocommerce-MyAccount-content{
+        display: none;
+    } */
+.woocommerce-Address {
+    max-width: 100%;
+}
+
+#customer_details .col-1 {
+    max-width: 100%;
+}
+
+#customer_details .col-2 {
+    max-width: 100%;
+}
+
+.form-row {
+    display: block;
+}
+
+.woocommerce .col2-set .col-1,
+.woocommerce-page .col2-set .col-1 {
+    padding: 20px;
+    border: 1px solid rgba(235, 235, 235, 1);
+    box-shadow: 0px 5px 40px 0px rgba(18, 21, 26, 0.05);
+    width: 100%;
+}
+
+.woocommerce .col2-set .col-2,
+.woocommerce-page .col2-set .col-2 {
+    padding: 20px;
+    border: 1px solid rgba(235, 235, 235, 1);
+    box-shadow: 0px 5px 40px 0px rgba(18, 21, 26, 0.05);
+}
+
+#coupon_code {
+    width: 50%;
+}
+
+/* Single Product Page Add to Cart Button */
+/* Change Background Color for All WooCommerce Buttons */
+.woocommerce button.button,
+.woocommerce a.button,
+.woocommerce button.button.alt,
+.woocommerce a.button.alt,
+.woocommerce input.button,
+.woocommerce input.button.alt,
+.woocommerce input[type="submit"],
+.woocommerce input[type="submit"].alt {
+    background-color: #0FAFE9;
+    color: #fff;
+    /* Change this to the desired text color */
+}
+
+/* Hover effect for all buttons */
+.woocommerce button.button:hover,
+.woocommerce a.button:hover,
+.woocommerce button.button.alt:hover,
+.woocommerce a.button.alt:hover,
+.woocommerce input.button:hover,
+.woocommerce input.button.alt:hover,
+.woocommerce input[type="submit"]:hover,
+.woocommerce input[type="submit"].alt:hover {
+    background-color: #0C94D5;
+    /* You can adjust the hover color as needed */
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.navbar-expand-lg .navbar-nav {
+    align-items: center;
+}
+
+#navbarNav {
+    padding-left: 20px;
+}
+
+.single-product-container {
+    width: 30%;
+    float: left;
+    margin-right: 5%;
+}
+
+.related-products-container {
+    width: 100%;
+    float: left;
+}
+
+.related-products-container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.tr {
+    background-color: #E7F7FD;
+    ;
+}
+
+.woocommerce-column--billing-address {
+    max-width: 100% !important;
+}
+
+.woocommerce-column--shipping-address {
+    max-width: 100% !important;
+}
+
+.text-center {
+    background-color: #E7F7FD;
+    padding: 3rem !important;
+
+}
+
+.gap {
+    gap: 15px;
+}
+.mt4container{
+    margin-bottom: 5rem;
+
+}
+.nav-item{
+    position: relative;
+    bottom: 2px;
+    right: 186px;
+}
+.nav-item a i{
+    color: black;
+}
+.cart-count{
+    
+        position: relative;
+        top: 7px;
+        font-size: 12px;
+        color: white;
+        border: 1px solid red;
+        border-radius: 61%;
+        background-color: red;
+        /* text-align: center; */
+        right: 7px;
+}
+.cart-icon:hover .cart-count {
+    color: red; /* Change this color to your desired hover color */
+}
+.table td {
+    display: flex;
+    justify-content: flex-end;
+}
+.address-content{
+     border: 1px solid #dee2e6;}
+
+
+
+/* For tablets */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .footer{
+        gap: 0px;
+        flex-wrap: nowrap;
+    }
+    .col1s{
+        margin-top: 0rem;
+    }
+
+.custom-column4.new img {
+   margin-left: 25%;
+}
+.svg-icons{
+    margin-bottom: 3rem;
+}
+.btn2{
+    min-width: 10%;
+}
+.footer{
+    gap: 10px;
+}
+.nav-item{
+    position:unset;
+}
+}
+
+
+/* For mobile devices */
+@media only screen and (max-width: 600px) {
+    .svg-icons {
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+        width: 100%;
+        align-items: center;    }
+
+    .footer {
+        display: block;
+        text-align: center;
+    }
+
+    #menu-footer {
+        padding: 0px;
+    }
+
+    .copyright-column {
+        text-align: center;
+    }
+
+    .social-icons-column {
+        justify-content: center;
+    }
+
+    .container-apps-websites {
+        padding: 0px;
+    }
+
+    .h2-apps-websites {
+        font-size: 19px;
+    }
+
+    .h2-apps-websites p {
+        text-align: center;
+    }
+
+    .spacer {
+        display: block;
+        text-align: center;
+    }
+
+
+    .custom-space1 {
+        margin-left: 0px;
+    }
+    .navbar-light {
+        padding: 0px ;
+        margin-top: 10px;
+    }
+    .col1s {
+        margin-top: 0rem;
+    }
+    .custom-space2{
+        display: none;
+    }
+    .gap {
+        flex-direction: column;
+    }
+    .nav-item{
+        position:unset;
+    }
+
+}

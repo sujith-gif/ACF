@@ -1,0 +1,440 @@
+/*
+Theme Name: Custom theme
+Description: Description of your theme.
+Author: Sujith
+Version: 1.0    
+*/
+
+/* Add your custom styles below */
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 56px;
+    font-weight: 700;
+}
+
+
+.navbar-expand-lg .navbar-nav {
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+
+
+
+.content1 {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.h1-custom {
+    color: #12151A;
+}
+
+.font1 {
+    border-bottom: none;
+}
+
+
+.mt4container {
+    margin-top: 7.5rem !important
+}
+
+.csrow1 {
+    display: block;
+}.csrow2 {
+    display: block;
+}
+
+.btn1 {
+    background-color: #0FAFE9;
+    color: #fff;
+    border: none;
+}
+
+.btn2 {
+    background-color: #CFEFFB;
+    color: #0FAFE9;
+    min-width: 100%;
+}
+
+.custom-space-h4 {
+    margin-left: 30px;
+    position: relative;
+    display: inline-block;
+}
+
+.content2 {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.background-image {
+    background-image: url('uploads/Course\ 1.svg');
+    background-size: cover;
+    height: 300px;
+    color: white;
+    padding: 20px;
+}
+
+.cstmspan {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    border-bottom: 2px solid #0FAFE9;
+}
+
+.custom-h4 {
+    text-align: center;
+    color: #FFFFFF;
+    background: var(--Primary-100, #0FAFE9);
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+
+
+}
+
+.customp {
+    font-size: 14px;
+}
+
+.border-shadow {
+    padding: 20px;
+    border-radius: 10px;
+    border-radius: 15px;
+    border: 1.5px solid var(--Secondary-60, #EBEBEE);
+
+}
+
+.border-column {
+    border-radius: 10px;
+    border: 17px solid mintcream;
+}
+
+.ne {
+    text-align: center;
+    background-color: #E7E7FD;
+    width: 19%;
+    color: #0FAFE9 !important;
+    border-radius: 10px;
+}
+
+.text-above-icons {
+    display: flex;
+    justify-content: center;
+    color: #0FAFE9;
+    margin-top: 4rem;
+}
+
+.svg-icons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+/* second page css */
+.custom {
+    margin-top: 0px;
+    display: flex;
+
+}
+
+.custom-column1 {
+    padding: 0px;
+    border-radius: 10px;
+    max-width: 100%!important;
+    border: 1px solid var(--Devider-Devider, #EBEBEB);
+    background: #FFF;
+}
+ .col1s{
+    margin-top: -17rem;
+
+}
+
+.custom-column1 h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.custom-column1 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.custom-column1 li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 10px;
+}
+
+.custom-font {
+    font-size: 16px;
+}
+
+.img-fluid {
+    max-width: 100% !important;
+}
+
+.custom-space {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.custom-font {
+    font-size: 16px;
+}
+
+.news-letter {
+    border-radius: 10px;
+    background-color: #E7F7FD;
+    margin-top: 2rem;
+}
+
+.news-letter-content {
+    padding: 20px;
+    text-align: center;
+}
+
+/* 3rd section */
+.custom-column3 {
+    max-width: 100% !important;
+}
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.custom-column4 {
+    max-width: 100% !important;
+    background: rgba(248, 197, 41, 0.12);
+    border-radius: 10px;
+    padding: 0px;
+    margin-top: 2rem;
+
+}
+
+.custom-space1 {
+    text-align: center;
+    margin-left: 30px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* footer upper */
+
+footer .list-unstyled li {
+    margin-top: 10px;
+}
+
+.social-icons-column {
+    gap: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container-fluid-footer {
+    background-color: #FFF;
+}
+
+.container-footer {
+    margin-top: 6rem;
+}
+
+/* style.css */
+
+.custom-space1 {
+    background-color: #E7F7FD;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 73px;
+}
+
+.custom-space1 img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.custom-space1 small {
+    font-size: 14px;
+    color: #000;
+}
+
+.custom-space1 a {
+    color: #0FAFE9;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.custom-space1 a:hover {
+    border-color: #0FAFE9;
+
+}
+
+
+
+/* style.css */
+
+.custom-space2 {
+    /* display: flex; */
+    position: relative;
+    top: -30px;
+}
+
+.custom-heading {
+    margin-left: 30px;
+    position: relative;
+    display: inline-block;
+}
+
+.custom-heading::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    border-bottom: 2px solid #0FAFE9;
+}
+
+.custom-column4 img {
+    max-width: 307px !important;
+}
+
+.custom-column4 p {
+    text-align: center;
+    padding: 22px;
+    font-size: 15px;
+}
+
+.custom-column4 p:last-child {
+    padding: 10px;
+    color: #B9B9B9;
+}
+
+/* Add your custom styles here */
+
+.icon {
+    margin-top: 20px;
+    position: relative;
+}
+
+.custom-column1 {
+    text-align: center;
+    position: relative;
+}
+
+.custom-column1 img {
+    margin-top: 20px;
+}
+
+.custom-column4.new img {
+    max-width: 100% !important;
+    margin: 0;;
+}
+
+.custom-column4.new p {
+    text-align: center;
+    padding: 22px;
+    font-size: 15px;
+}
+
+.custom-column4.new p:last-child {
+    padding: 10px;
+    color: #B9B9B9;
+}
+
+/* style.css */
+
+.container-apps-websites {
+    background-color: #E7F7FD;
+    padding: 20px;
+    margin-top: 5rem;
+}
+
+.col-apps-websites {
+    margin-top: 3rem;
+}
+
+.h2-apps-websites {
+    color: #0FAFE9;
+}
+
+.spacer {
+    display: flex;
+    gap: 15px;
+    align-items: baseline;
+}
+
+.btn-contact {
+    background-color: #0FAFE9;
+    color: #fff;
+}
+
+.link-portfolio {
+    color: #717184;
+}
+
+.img-fluid-apps {
+    position: relative;
+    top: 19px;
+}
+
+.img-fluid-group {
+    position: relative;
+    top: 36px;
+}
+
+
+/* media-query */
+
+@media only screen and (max-width: 768px) {
+
+    body {
+        font-size: 14px;
+    }
+
+    .custom {
+        display: block;
+    }
+
+    .custom-column2 {
+        max-width: 100%;
+    }
+
+    .custom-column5 {
+        max-width: 100%;
+    }
+
+    .new img {
+        margin-left: 13rem;
+    }
+
+    .ne {
+        width: 30%;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+
+    body {
+        font-size: 12px;
+    }
+
+}

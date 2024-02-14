@@ -1,0 +1,15 @@
+{
+	"apiVersion": "2",
+	"name": "vk-filter-search/search-result-form",
+	"title": "Search Result Form",
+	"category": "vk-blocks-cat",
+	"attributes": {
+		"className": {
+			"type": "string",
+			"default": ""
+		}
+	},
+	"supports": {
+		"className": true
+	}
+}
